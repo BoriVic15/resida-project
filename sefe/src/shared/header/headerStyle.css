@@ -1,3 +1,18 @@
-.header-main {
+* {
+    border: solid red;
+}
+
+.header_container {
     border: 2px solid green;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10rem;
+}
+
+.header_cta_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
