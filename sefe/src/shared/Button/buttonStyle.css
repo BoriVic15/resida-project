@@ -1,0 +1,28 @@
+
+.outline {
+    border: 1px solid #1f4b43;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 0;
+    padding: 12px;
+    background-color: transparent;
+    font-size: 13px;
+    color: #1f4b43;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.btn {
+    border: 1px solid transparent;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 0;
+    padding: 12px;
+    background-color: #1f4b43;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: normal;
+}

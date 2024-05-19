@@ -1,6 +1,6 @@
-* {
+/* * {
     border: solid red;
-}
+} */
 
 .header_container {
     border: 2px solid green;
@@ -13,6 +13,21 @@
 
 .header_cta_section{
     display: flex;
+    gap: 24px;
     align-items: center;
     justify-content: space-between;
+}
+
+.header_cta_section ul li {
+    list-style: none;
+    font-style: normal;
+}
+ 
+.header_cta_section ul li a {
+    font-weight: normal;
+    color: #1f4b43;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    text-transform: capitalize;
 }
