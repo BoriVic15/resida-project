@@ -1,32 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Header from './shared/header';
-import Footer from './shared/footer';
-
+import LandingPage from 'views/LandingPage';
+// import LandingPage from "../src/views/LandingPage";
 
 function App() {
   return (
     <div className="App">
-      <Header />     
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <Footer />
-
+      <LandingPage />
     </div>
-  );
+  )
 }
 
 export default App;
