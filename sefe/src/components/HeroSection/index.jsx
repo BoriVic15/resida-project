@@ -14,9 +14,9 @@ const HeroSection = () => {
 
     <div className='hero_section_content'>
       <p>Finding the perfect home has never been this easy!</p>
-          <span>Eliminate stressful house searches. We link you with the Lagos's finest and most affordable residences 
+          <div>Eliminate stressful house searches. We link you with the Lagos's finest and most affordable residences 
             -<strong>Zero agent fees, middle men payments & hassles.</strong>
-          </span>
+          </div>
   
   <div className='btn_container'>
 

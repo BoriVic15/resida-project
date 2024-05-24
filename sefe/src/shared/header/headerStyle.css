@@ -40,7 +40,7 @@
     display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 841px) {
     .header_container {
         width: 100vw;
         justify-content: space-between;
