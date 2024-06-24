@@ -1,7 +1,7 @@
 
 .hero_section_container {
     height: 92vh;
-    width: 100vw;
+    width: 98.89vw;
     display: flex;
     justify-content: center;
     background-position: bottom;
@@ -63,7 +63,7 @@
     
     .hero_section_content div{
         padding: 0 1rem;
-        border: solid blue;
+        /* border: solid blue; */
         /* display: flex;
         align-items: start;
         justify-content: start; */

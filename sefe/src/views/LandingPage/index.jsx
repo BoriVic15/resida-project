@@ -5,6 +5,9 @@ import React from 'react';
 import Header from 'shared/header';
 import HeroSection from 'components/HeroSection';
 import SubHeroSection from 'components/subHeroSection';
+import InfoCard from 'components/infoCard/infocard';
+import OurExperience from 'components/ourExperience';
+import DreamHome from 'components/DreamHome';
 
 
 const LandingPage = () => {
@@ -12,8 +15,10 @@ const LandingPage = () => {
       <Header />
       <HeroSection />
       <SubHeroSection />
-      {/* <Footer /> */}
+      <InfoCard />
+      <OurExperience />
+      <DreamHome />
     </div>;
 };
- 
+
 export default LandingPage;
