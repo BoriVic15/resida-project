@@ -1,35 +1,111 @@
 .info_container {
     width: 100%;
     height: 370px;
-    /* background-color: yellow; */
+    overflow-y: hidden;
+}
+
+.info_guide_container{
+    height: 60vh;
+    max-width: 100%;
+    overflow-y: hidden;
+}
+
+.info_prop_container {
+    width: 100%;
+    height: 60vh;
     overflow-y: hidden;
 }
 
 .info_inner_container {
-    /* background-color: blue; */
     width: 100%;
+    display: grid;
     max-width: 75%;
     margin: 0px auto;
-    display: grid;
     padding-top: 3rem;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.info_interior_container {
+    width: 100%;
+    display: grid;
+    max-width: 75%;
+    margin: 0px auto;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.info_interiorprop_container {
+    width: 100%;
+    display: grid;
+    max-width: 75%;
+    margin: 0px auto;
     grid-template-columns: repeat(2,1fr);
 }
 
 .info_description {
     width: full;
     height: 60vh;
-    text-align: left;
-    padding-right: 6rem;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    text-align: left;
+    align-items: start;
+    padding: 2rem 8rem 0 0;
+    flex-direction: column;
     background-color: aliceblue;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.info_guide {
+    display: flex;
+    text-align: left;
+    padding-top: 4rem;
+    align-items: start;
+    padding-right: 7rem;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.info_prop {
+    margin: 0;
+    height: 60%;
+    display: flex;
+    max-width: 100%;
+    text-align: left;
+    align-items: start;
+    padding-left: 7rem;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.info_guide .info_title {
+    margin: 0;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.info_guide .info_subtitle {
+    font-size: 26px;
+    font-weight: 500;
+    color: #1f4b43;
+}
+
+.info_guide .info_para {
+    margin: 0;
+    padding: 0;
+    color: #141115;
+}
+
+.info_guide .info_btnn {
+    padding-top: 1rem;
+}
+
 .info_title {
+    font-size: 27px;
     color: #1F4B43;
     font-weight: bolder;
-    font-size: 27px;
 }
 
 .info_subtitle {
@@ -47,59 +123,195 @@
     width: 100%;
     height: 50vh;
     display: flex;
-    align-items: center;
     padding-left: 50px;
+    align-items: center;
     justify-content: center;
 }
 
+.info_comprehensive {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 .image {
-    max-width: 100%;
     height: 310px;
-    margin-right: 5rem;
-    /* padding-top: 3rem; */
+    max-width: 100%;
     object-fit: cover;
-    border: red;
+    margin-right: 5rem;
+}
+
+.mapImage {
+    height: 400px;
+    max-width: 100%;
+    object-fit: cover;
+    margin-right: 5rem;
+}
+
+.info_circle {
+    gap: 1rem;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-bottom: 1.9rem;
+}
+
+.info_circle_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.circle_image {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
 }
 
 @media (max-width: 841px) {  
     .info_container {
-        overflow: visible;
-}
+        width: 100%;
+        height: 110vh;
+        overflow:hidden;
+    }
+    
+    .info_guide_container{
+        width: 100%;
+        display: flex;
+        height: 110vh;
+        overflow: hidden;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .info_prop_container {
+        width: 100%;
+        display: flex;
+        height: 115vh;
+        overflow: hidden;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
 
     .info_inner_container {
         max-width: 100%;
         grid-template-columns: repeat(1,1fr);
     }
 
+    .info_interior_container {
+        max-width: 100%;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .info_interiorprop_container {
+        max-width: 100%;
+        grid-template-columns: repeat(1,1fr);
+    }
+
     .info_description {
-        width: 90%;
+        width: 100%;
         margin: 0px auto;
     }
 
     .info {
+       padding: 0;
+       display: flex;
+       text-align: center;
+       align-items: center;
+       flex-direction: column;
+       justify-content: center;
+    }
+
+    .info_para {
+       width: 100%;
+       color: #141115;
+       text-align: justify;
+       padding-bottom: 10rem;
+    }
+
+    .info_guide {
+        display: flex;
+        padding-top: 4rem; 
+        text-align: center;
+        padding-bottom: 0px;
+        padding-right: 0rem;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .info_prop {
+        display: flex;
+        max-width: 100%;
+        padding-top: 4rem; 
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5rem 0.5rem 0rem;
+    }
+
+    .info_guide .info_title {
+        margin: 0;
+        font-size: 16;
+        font-weight: 300;
+        padding-top: 5px;
+        text-align: center;
+    }
+
+    .info_guide .info_subtitle {
+        font-size: 22px;
+        font-weight: 700;
+        color: #1f4b43;
+        text-align: center;
+    }
+
+    .info_guide .info_para {
+        margin: 0;
+        padding: 0;
+        width: 90%;
+        display: flex;
+        color: #141115;
         text-align: center;
         text-align: justify;
-        display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
     }
 
     .info_image {
         width: 100%;
         height: 40vh;
         display: flex;
+        padding-top: 2rem;
+        padding-left: 3rem;
         align-items: center;
         justify-content: center;
-        padding-left: 3rem;
-        padding-top: 2rem;
     }
 
     .image {
-        max-width: 100%;
         height: 300px;
-        padding-bottom: 2rem;
+        max-width: 100%;
         margin-right: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .mapImage {
+        height: 400px;
+        max-width: 100%;
+        object-fit: cover;
+        align-items: center;        
+        margin-right: 6.5rem;
+    }
+
+    .info_circle {
+        margin-bottom: 1rem;
+        justify-content: center;
     }
 
 }

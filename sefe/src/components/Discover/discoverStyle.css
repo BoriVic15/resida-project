@@ -1,0 +1,36 @@
+.disc_image_container {
+    padding: 0;
+    height: 60vh;
+    display: flex;
+    max-width:100%;
+    align-items: center;
+    justify-content: center;
+    background-position:top center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.disc_text_container {
+    margin: 0 32%;
+}
+
+.disc_text {
+    margin: 0;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.disc_button {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 841px) {
+    .disc_text_container {
+        margin: 0 auto;
+    }
+}
