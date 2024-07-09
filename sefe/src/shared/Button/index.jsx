@@ -7,9 +7,7 @@ const Button = ({style, btnName, outline, rightIcon, leftIcon }) => {
     <button style={style} className={`${outline ? 'outline' : 'btn'}`}>
     {leftIcon && <span className='left_icon'>{leftIcon}</span>}
       {btnName}
-    {rightIcon && <span className='right_icon'>{rightIcon}</span>}
-    
-    </button>
+    {rightIcon && <span className='right_icon'>{rightIcon}</span>}</button>
   );
 };
 

@@ -1,0 +1,14 @@
+.app_btn {
+    display: flex;
+    justify-content: space-between;
+    gap: 9px;
+}
+
+@media (max-width: 841px) {
+    .app_btn {
+        display: flex;
+        flex-direction: column;
+        column-gap: 9px;
+        justify-content: space-between;
+    }
+}
