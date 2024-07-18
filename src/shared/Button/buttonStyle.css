@@ -9,7 +9,7 @@
     background-color: transparent;
     font-size: 13px;
     color: #1f4b43;
-    cursor: pointer;
+    /* cursor: pointer; */
     font-weight: normal;
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@
     background-color: #1f4b43;
     color: #fff;
     font-size: 13px;
-    cursor: pointer;
+    /* cursor: pointer; */
     font-weight: normal;
     display: flex;
     align-items: center;

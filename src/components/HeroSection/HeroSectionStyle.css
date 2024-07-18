@@ -40,6 +40,11 @@
     gap: 24px;
 }
 
+.btn_container .btn,
+    .btn_container .outline {
+        width: 32%;
+    }
+
 @media (max-width: 841px) {
     .hero_section_container {
         height: 92vh;

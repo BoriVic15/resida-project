@@ -16,6 +16,7 @@ import Discover from 'components/Discover/discover';
 import Popular from 'components/Neighbourhood/popular';
 import space from '../../assets/office_space.svg';
 import appDevice from '../../assets/App_image.svg';
+import Footer from 'shared/footer';
 
 const LandingPage = () => {
   return <div>
@@ -92,6 +93,7 @@ const LandingPage = () => {
       reverse
       appBtn={true}
       />
+      <Footer />
     </div>;
 };
 

@@ -1,0 +1,83 @@
+.footer-main {
+    display: grid;
+    background-color: #1F4B43;
+    height: 45vh;
+    width: 100%;
+}
+
+.first_grid_section {
+    width: 75%;
+    height: 29vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    color: #fff;
+}
+
+.grid1 {
+    width: 30%;
+}
+
+.grid2, .grid3, .grid4, .grid5 > p {
+    width: 90%;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.grid1 > h2 {
+    font-weight: 400px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.iconStyle{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    font-size: 1.3rem;
+}
+
+
+.h3Styles {
+    font-weight: 200px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.grid2, .grid3, .grid4, .grid5 {
+    width: 18%;
+}
+
+.second_grid_section {
+    display: flex;
+    width: 75%;
+    height:3vh;
+    margin: 0 auto;
+    justify-content: start;
+    gap: 37px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    position: relative;
+    color: #fff;
+}
+
+.infoStyle {
+    padding-left: 1.6rem;
+    font-size: 16px;
+}
+
+.infoStyle1 {
+    padding-left: 1.6rem;
+}
+
+.third_grid_section {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+    height: 4vh;
+    border-top: 2px solid rgb(216, 210, 201);
+    color: #fff;
+}
