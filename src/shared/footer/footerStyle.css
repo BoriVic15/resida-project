@@ -1,18 +1,18 @@
 .footer-main {
+    width: 100%;
+    height: 45vh;
     display: grid;
     background-color: #1F4B43;
-    height: 45vh;
-    width: 100%;
 }
 
 .first_grid_section {
     width: 75%;
     height: 29vh;
-    margin: 0 auto;
     display: flex;
-    flex-direction: row;
-    text-align: left;
     color: #fff;
+    margin: 0 auto;
+    text-align: left;
+    flex-direction: row;
 }
 
 .grid1 {
@@ -27,22 +27,22 @@
 }
 
 .grid1 > h2 {
-    font-weight: 400px;
     font-size: 25px;
+    font-weight: 400px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .iconStyle{
-    display: flex;
-    justify-content: space-between;
     width: 60%;
+    display: flex;
     font-size: 1.3rem;
+    justify-content: space-between;
 }
 
 
 .h3Styles {
-    font-weight: 200px;
     font-size: 20px;
+    font-weight: 200px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -51,33 +51,101 @@
 }
 
 .second_grid_section {
-    display: flex;
-    width: 75%;
-    height:3vh;
-    margin: 0 auto;
-    justify-content: flex-start;
     gap: 37px;
-    font-family: 'Times New Roman', Times, serif;
+    width: 75%;
+    height:6vh;
+    display: flex;
+    color: #fff;
+    margin: 0 auto;
     font-size: 16px;
     position: relative;
-    color: #fff;
+    justify-content: flex-start;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .infoStyle {
-    padding-left: 1.6rem;
     font-size: 16px;
+    padding-left: 1.6rem;
 }
 
 .infoStyle1 {
-    padding-left: 1.6rem;
+    padding-left: 1rem;
 }
 
 .third_grid_section {
-    display: flex;
-    justify-content: space-between;
     width: 75%;
-    margin: 0 auto;
     height: 4vh;
-    border-top: 2px solid rgb(216, 210, 201);
+    display: flex;
     color: #fff;
+    margin: 0 auto;
+    justify-content: space-between;
+    border-top: 2px solid rgb(216, 210, 201);
+}
+
+.two_section_container {
+    display: flex;
+    column-gap: 30;
+    flex-direction: column;
+}
+
+@media (max-width: 841px) {
+    .footer-main {
+        margin: 0;
+        padding: 0;
+        height: 160vh;
+    }
+
+    .first_grid_section {
+        margin: 0;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .grid1 {
+        width: 100%;
+        padding-left: 1rem;
+    }
+
+    .iconStyle{
+        width: 100%;
+    }
+
+    .grid2, .grid3, .grid4, .grid5 > p {
+        width: 100%;
+    }
+
+    .grid2, .grid3, .grid4, .grid5 {
+        width: 65%;
+        padding-left: 1rem;
+    }
+
+    .second_grid_section {
+        gap: 4px;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 13vh;
+        text-align: start;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .second_grid_section > div {
+        width: 70%;
+        padding-left: 1rem;
+    }
+
+    .third_grid_section {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 7vh;
+        font-size: smaller;
+        flex-direction: column;
+        justify-content:flex-end;
+    }
+
+    .two_section_container {
+        padding-top: 17rem;
+    }
 }

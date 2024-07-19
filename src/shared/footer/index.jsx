@@ -55,9 +55,10 @@ const Footer = () => {
       </section>
 
       {/* second section */}
+      <div className='two_section_container'>
       <section className='second_grid_section'>
         <div><FaRegEnvelope style={{ position: 'absolute', top: '2.5px'}}/><span className='infoStyle'>{'contact@company.com'}</span></div>
-        <div><IoCallOutline style={{ position: 'absolute', top: '2.5px'}}/><span className='infoStyle1'>{'(414) 687 - 5892'}</span></div>
+        <div className='callStyle'><IoCallOutline style={{ top: '2.5px'}}/><span className='infoStyle1'>{'(414) 687 - 5892'}</span></div>
         <div>{'794 Mcallister St San Francisco, 94102'}</div>
       </section>
 
@@ -66,6 +67,7 @@ const Footer = () => {
         <div>{'Copyright © 2022 BRIX Templates'}</div>
         <div>All Rights Reserved | <a id='terms_and_conditions' href='#terms_and_conditions'>Terms and Conditions</a> | Privacy Policy</div>
       </section>
+      </div>
     </main>
   )
 }
