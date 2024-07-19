@@ -42,13 +42,13 @@ const Header = () => {
     {/*CTA*/}
       <div className="header_cta_section">
       <ul>
-      {nav.map(({ to, name }, idx) => {
-        <li key={idx}>
+      {nav.map(({ to, name }, idx) => (
+  <li key={idx}>
     <Link to={to}>{name}</Link>
-        </li>  
-      })}
+  </li>
+))}
       </ul>
-        <div>Contact</div>
+        {/* <div>Contact</div> */}
         <div>
           <Button btnName={"Download App"} outline />
         </div>
@@ -62,6 +62,6 @@ export default Header;
 const nav = [
   {
     name: "contact",
-    to: "/contact",
+    to: "Contact",
   },
 ];

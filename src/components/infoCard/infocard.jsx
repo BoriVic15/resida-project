@@ -61,13 +61,13 @@ function InfoCard ({title, subtitle, body, image, imageStyle, imageHeight, infoC
           </div>
         </div>
         <div className={imageStyle}>
-          <img src={image} alt="info-image" className={imageHeight} />
+          <img src={image} alt="info-housing" className={imageHeight} />
         </div>
         </>
         ) : (
         <>
         <div className={imageStyle}>
-          <img src={image} alt="info-image" className={imageHeight} />
+          <img src={image} alt="info-housing" className={imageHeight} />
         </div>
         <div className='info_description'>
           <div className={infoStyle}>

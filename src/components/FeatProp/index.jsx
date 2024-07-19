@@ -17,13 +17,13 @@ function FeatProp () {
         </section>
         <section className='fp_image_container'>
             <div>
-            <img src={fp_image_1} alt="info-image" className='image' /> 
+            <img src={fp_image_1} alt="info-house" className='image' /> 
             </div>
             <div>
-            <img src={fp_image_2} alt="info-image" className='image' /> 
+            <img src={fp_image_2} alt="info-house" className='image' /> 
             </div>
             <div>
-            <img src={fp_image_3} alt="info-image" className='image' />     
+            <img src={fp_image_3} alt="info-house" className='image' />     
             </div>
         </section>
     </main>
